@@ -62,7 +62,7 @@ module.exports = {
       name: 'USA',
       rank: 3,
       location: 'north-america',
-      population: 331_893_74,
+      population: 331_893_740,
       cities: [
         {
           name: 'new-york',
