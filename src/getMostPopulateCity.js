@@ -6,3 +6,10 @@ retorna um array com o nome da cidade, estado, população e rank da cidade mais
 /* resultado esperado ao passar 'india' como parâmetro
 [ 'delhi', 'dehli', 11007835, 2 ] */
 
+const getMostPopulateCity = (country) => {
+  const findPopulateCity = findCity = data.countries.find((item) => item.name === country).cities;
+  const cityName = findPopulateCity.reduce((acc, item) => item.population > acc.population ? item : acc);
+  return Object.values(cityName)
+}
+
+console.log(getMostPopulateCity('india'));

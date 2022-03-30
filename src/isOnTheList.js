@@ -5,8 +5,6 @@ const data = require('../data/countries_data')
 // True se há algum país com o continente europe listado
 // false se não há nenhum país com o continente europe listado
 
-const isOnTheList = (continent) => {
-  // seu código
-};
+const isOnTheList = (continent) => data.countries.some((item) => item.location === continent)
 
 console.log(isOnTheList('europe'));
