@@ -65,6 +65,6 @@ O Diretor disse que agora todas as cidades terão nova classicações de acordo 
 
 Você deverá desenvolver uma função que, ao receber um dos países como parâmetro, retorne um objeto contendo o número de cidades de acordo com a classificação acima.
 Exemplo de retorno: 
-```json
+```javascript
 { megalopolis: 3, megacity: 6, metropolis: 4 }
 ```
