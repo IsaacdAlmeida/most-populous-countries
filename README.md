@@ -16,6 +16,8 @@ usando Javascript.
 - [Aprendizados](#aprendizados)
 - [Exercícios](#exercícios)
   - [Assign Cities](#assign-cities)
+  - [Get First Country](#get-first-country)
+  - [Get Most Populated City](#get-most-populated-city)
 
 
 ## Stack utilizada
@@ -71,7 +73,7 @@ Exemplo de retorno:
 
 ### Get First Country
 
-Você irá trabalhar no arquivo `getFirstCountry`!
+Você irá trabalhar no arquivo `getFirstCountry.js`!
 
 Serão criadas duas funções: `getFirstCountry` e `checkPopulation`!
 
@@ -86,4 +88,16 @@ O retorno da segunda função deverá ser um booleano. Exemplo de retorno:
 
 ```javascript
 true
+```
+
+### Get Most Populated City
+
+Você irá trabalhar na função `getMostPopulatedCity`.
+
+Você deverá desenvolver uma função que, ao receber um nome de um dos Países listados no `countries_data.js`, retorne um array com o nome da cidade, estado, população e posição no rank da cidade mais populosa desse país.
+
+O retorno da função deverá ser um array. Exemplo de retorno ao passar `india` como parâmetro da função.
+
+```javascript
+[ 'delhi', 'dehli', 11007835, 2 ]
 ```
