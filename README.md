@@ -18,6 +18,7 @@ usando Javascript.
   - [Assign Cities](#assign-cities)
   - [Get First Country](#get-first-country)
   - [Get Most Populated City](#get-most-populated-city)
+  - [Is On The List](#is-on-the-list)
 
 
 ## Stack utilizada
@@ -58,7 +59,7 @@ Você poderá utilizar o comando `npm test` para executar todos os testes presen
 
 ### Assign Cities
 
-Você irá trabalhar na função `AssingCities`!
+Você irá desenvolver a função `AssingCities`!
 
 O Diretor disse que agora todas as cidades terão nova classicações de acordo com a quantidade de habitantes:
 * *Megalopolis* - Cidades que tenham população igual ou superior a 15 milhões de habitantes;
@@ -92,7 +93,7 @@ true
 
 ### Get Most Populated City
 
-Você irá trabalhar na função `getMostPopulatedCity`.
+Você irá desenvolver a função `getMostPopulatedCity`.
 
 Você deverá desenvolver uma função que, ao receber um nome de um dos Países listados no `countries_data.js`, retorne um array com o nome da cidade, estado, população e posição no rank da cidade mais populosa desse país.
 
@@ -100,4 +101,17 @@ O retorno da função deverá ser um array. Exemplo de retorno ao passar `india`
 
 ```javascript
 [ 'delhi', 'dehli', 11007835, 2 ]
+```
+
+### Is On The List
+
+Você irá desenvolver a função `isOnTheList`.
+
+É necessário verificar se existe algum país do continente Europeu e Asiático listado no rank de países dentro do arquivo `countries_data.js`.
+
+O retorno da função deverá ser um booleano. Exemplo de retorno:
+
+```javascript
+true
+true
 ```

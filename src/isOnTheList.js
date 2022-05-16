@@ -1,10 +1,10 @@
 const data = require('../data/countries_data')
 
-// Uma reunião do conselho se aproxima e precisamos verificar se há algum país do continente europeu está listado no Countries_data
-// seu código deve:
-// True se há algum país com o continente europe listado
-// false se não há nenhum país com o continente europe listado
+const isOnTheList = () => {
+  // desenvolva sua função aqui, você poderá incluir o parâmetro dessa função
+}
 
-const isOnTheList = (continent) => data.countries.some((item) => item.location === continent)
+isOnTheList('europe');
+isOnTheList('asia');
 
-console.log(isOnTheList('europe'));
+module.exports = isOnTheList;
