@@ -68,3 +68,22 @@ Exemplo de retorno:
 ```javascript
 { megalopolis: 3, megacity: 6, metropolis: 4 }
 ```
+
+### Get First Country
+
+Você irá trabalhar no arquivo `getFirstCountry`!
+
+Serão criadas duas funções: `getFirstCountry` e `checkPopulation`!
+
+A primeira função `getFirstCountry`, deverá retornar o primeiro país com menos de 250 milhões de habitantes em uma string com o texto `O primeiro país do rank com menos de 250 milhões de habitantes é: <country>!`, onde `<country>` é o primeiro país que tenha menos de 250 milhões de habitantes.
+
+A segunda função, `checkPopulation`, recebe dois parâmetros:
+
+* O primeiro parâmetro é um país (você deverá utilizar o país encontrado na função anterior)
+* O segundo parâmetro deve ser um número, e será responsável por verificar se todas as cidades do país passado no parâmetro anterior possuem mais de 1.000.000 (um milhão) de habitantes.
+
+O retorno da segunda função deverá ser um booleano. Exemplo de retorno:
+
+```javascript
+true
+```
