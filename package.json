@@ -1,0 +1,27 @@
+{
+  "name": "most-populous-countries",
+  "version": "1.0.0",
+  "description": "Exercícios de HOFs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacdAlmeida/most-populous-countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacdAlmeida/most-populous-countries/issues"
+  },
+  "homepage": "https://github.com/IsaacdAlmeida/most-populous-countries#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "jest": "^27.5.1"
+  }
+}
